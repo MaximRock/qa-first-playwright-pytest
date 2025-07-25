@@ -4,7 +4,7 @@ import config
 from playwright.sync_api import Browser, BrowserContext, Page, sync_playwright
 
 
-@pytest.fixture()
+@pytest.fixture(scope="class")
 def page() -> Page: # type: ignore
     playwright = sync_playwright().start()
     if config.playwright.BROWSER == 'firefox':
