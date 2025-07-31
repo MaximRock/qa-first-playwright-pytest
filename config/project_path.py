@@ -12,7 +12,8 @@ class PathManager:
         if not new_dir.exists():
             new_dir.mkdir(parents=True)
             return new_dir
-        raise FileExistsError(f"Path exists: {new_dir}")
+        # raise FileExistsError(f"Path exists: {new_dir}")
+        return new_dir
 
     def extract_path(self, full_path: Path) -> Path:
         try:
@@ -22,8 +23,8 @@ class PathManager:
         except ValueError:
             return full_path
 
-    def create_file(self, file_name: str):
-        new_file = self.base_dir.joinpath(file_name)
+    def create_file(self, *args):
+        new_file = self.base_dir.joinpath(*args)
         if new_file.exists():
             if new_file.is_file():
                 return new_file
@@ -41,7 +42,9 @@ class PathManager:
         return ext if ext[0] == "." else f".{ext}"
 
 
-#ter = PathManager()
+# ter = PathManager()
+# # print(ter.extract_path(ter.create_dir("logs")))
+# print(ter.create_file(ter.extract_path(ter.create_dir("logs")), "test.log"))
 #print(ter.extract_path(ter.create_dir("screenshots", "products_page")))
 # print(ter.base_dir)
 

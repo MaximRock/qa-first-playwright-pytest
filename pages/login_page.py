@@ -7,8 +7,8 @@ import pages
 
 from data.assertions import Assertions
 from data.parametr_pairs import ParametrPairs
-from locators.auth import Auth
-from locators.products import Products
+# from locators.auth import Auth
+# from locators.products import Products
 
 
 class LoginPage:

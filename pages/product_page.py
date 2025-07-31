@@ -9,14 +9,12 @@ import pages
 from config.project_path import PathManager
 from data.assertions import Assertions
 
-# from locators.products import Products
 
 
 class ProductPage:
     def __init__(self):
         self.assertion = Assertions()
         self.path_manager = PathManager()
-        # self.locator_products = Products()
         self.uri_product: str = f"{data.host}inventory.html"
         self.file_format: str = ".png"
         self.base_format: str = self.path_manager.normalize_extension(self.file_format)

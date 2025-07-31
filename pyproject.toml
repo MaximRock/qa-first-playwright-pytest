@@ -1,0 +1,45 @@
+[project]
+name = "qa-first-playwright-pytest"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "allpairspy>=2.5.1",
+    "playwright>=1.54.0",
+    "pytest-playwright>=0.7.0",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.pytest.ini_options]
+addopts = "--color=yes"
+log_cli = true
+markers = [
+    "positive: marks tests as positive (deselect with '-m \"not positive\"')",
+    "negative: marks tests as negative (deselect with '-m \"not negative\"')",
+    "smoke: short smoke tests, marks tests as smoke (deselect with '-m \"not smoke\"')",
+    "serial",
+]
+env = [
+    "SLOW_MO=500",
+    "BROWSER=firefox",
+    "HEADLESS=false",
+    "ENV=shot"
+]
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = []

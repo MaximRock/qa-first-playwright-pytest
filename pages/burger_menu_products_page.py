@@ -9,22 +9,17 @@ class BurgerMenuProductsPage:
     def __init__(self) -> None:
         self.assertion = Assertions()
 
-    def click_burger_btn(self, page: Page) -> None:
+    def open_and_close_burger_menu(self, page: Page) -> None:
         pages.base_page.click(page, selector=locators.product.PRODUCTS_BURGER_MENU_BTN)
-
-    def visible_close_burger_menu(self, page: Page) -> None:
         self.assertion.is_visible(
             page,
             selector=locators.product.PRODUCTS_CLOSE_BURGER_MENU_BTN,
             msg="the element is not visible",
         )
 
-    def click_close_burger_menu(self, page: Page) -> None:
         pages.base_page.click(
             page, selector=locators.product.PRODUCTS_CLOSE_BURGER_MENU_BTN
         )
-
-    def visible_burger_menu_btn(self, page: Page) -> None:
         self.assertion.is_visible(
             page,
             selector=locators.product.PRODUCTS_BURGER_MENU_BTN,

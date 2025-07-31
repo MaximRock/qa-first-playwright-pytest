@@ -28,3 +28,6 @@ class Assertions:
 
     def check_text_in_list(self, actual, expected):
         assert expected in actual
+
+    def check_equals(self, actual: list, expected: list):
+        assert expected == actual

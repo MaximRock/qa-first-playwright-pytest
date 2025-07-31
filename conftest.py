@@ -6,4 +6,5 @@ load_dotenv()
 pytest_plugins: list[str] = [
     'fixtures.page',
     'fixtures.auth_page',
+    'fixtures.logger'
 ]
