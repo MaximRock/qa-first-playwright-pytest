@@ -1,18 +1,18 @@
-
-from venv import logger
-import pytest
 import logging
+
+import pytest
 from playwright.sync_api._generated import Page
 
 import pages
 
 logger = logging.getLogger(__name__)
 
+
 @pytest.mark.positive
 @pytest.mark.smoke
 @pytest.mark.usefixtures("user_login")
 class TestProductPage:
-
+    @pytest.mark.TC_004
     def test_open_product_page(self, page: Page):
         test_name = f"{self.__class__.__name__}.test_open_product_page"
 
@@ -25,6 +25,7 @@ class TestProductPage:
             logger.error(f"Test error: {test_name} - {str(e)}")
             pytest.fail(f"Test error: {test_name} - {str(e)}")
 
+    @pytest.mark.TC_005
     def test_click_all_elements_products(self, page: Page):
         test_name = f"{self.__class__.__name__}.test_click_all_elements_products"
 

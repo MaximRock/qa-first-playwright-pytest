@@ -18,6 +18,9 @@ markers = [
     "positive: marks tests as positive (deselect with '-m \"not positive\"')",
     "negative: marks tests as negative (deselect with '-m \"not negative\"')",
     "smoke: short smoke tests, marks tests as smoke (deselect with '-m \"not smoke\"')",
+    "TC_001: Link test to test case ID",
+    "TC_002: Link test to test case ID",
+    "TC_003: Link test to test case ID",
     "serial",
 ]
 env = [

@@ -12,6 +12,7 @@ logger = logging.getLogger(__name__)
 @pytest.mark.usefixtures("user_login")
 class TestBurgerMenuProductPage:
 
+    @pytest.mark.TC_002
     @pytest.mark.smoke
     def test_open_and_close_burger_menu(self, page: Page):
         try:
@@ -33,6 +34,7 @@ class TestBurgerMenuProductPage:
                 f"Failed test: {self.__class__.__name__}.test_open_and_close_burger_menu, {e}"
             )
 
+    @pytest.mark.TC_003
     @pytest.mark.parametrize("menu_buttons", data.data_for_tests.text_pruduct_menu)
     def test_compare_list_buttons_with_text(
         self, page: Page, menu_buttons: str

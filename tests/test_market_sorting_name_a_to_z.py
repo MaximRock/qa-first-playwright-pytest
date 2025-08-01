@@ -1,9 +1,10 @@
-import pytest
 import logging
+
+import pytest
 from playwright.sync_api import Page
 
-import pages
 import data
+import pages
 
 # Инициализируем логгер на уровне модуля
 logger = logging.getLogger(__name__)
@@ -12,7 +13,7 @@ logger = logging.getLogger(__name__)
 @pytest.mark.positive
 @pytest.mark.usefixtures("user_login")
 class TestMarketSorting:
-
+    @pytest.mark.TC_006
     @pytest.mark.parametrize(
         "sort_option, expected_order", data.data_for_tests.SORTING_OPTIONS
     )

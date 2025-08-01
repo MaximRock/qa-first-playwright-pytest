@@ -1,0 +1,15 @@
+2025-07-31 14:32:50,654 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-07-31 14:32:51,785 | [INFO] test_login_page: Test auth login page: TestLoginPage.test_auth_login_page
+2025-07-31 14:32:51,785 | [DEBUG] test_login_page: Get username: standard_user and password: secret_sauce
+2025-07-31 14:32:51,785 | [INFO] test_login_page: Attempting user authentication
+2025-07-31 14:32:55,392 | [INFO] test_login_page: Test passed: TestLoginPage.test_auth_login_page
+2025-07-31 14:40:06,092 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-07-31 14:40:07,228 | [INFO] test_login_page: Test auth login page: TestLoginPage.test_auth_login_page
+2025-07-31 14:40:07,228 | [DEBUG] test_login_page: Get username: standard_user and password: secret_sauce
+2025-07-31 14:40:07,228 | [INFO] test_login_page: Attempting user authentication
+2025-07-31 14:40:10,549 | [INFO] test_login_page: Test passed: TestLoginPage.test_auth_login_page
+2025-07-31 14:42:32,532 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-07-31 14:42:33,678 | [INFO] test_login_page: Test auth login page: TestLoginPage.test_auth_login_page
+2025-07-31 14:42:33,678 | [DEBUG] test_login_page: Get username: standard_user and password: secret_sauce
+2025-07-31 14:42:33,678 | [INFO] test_login_page: Attempting user authentication
+2025-07-31 14:42:36,897 | [INFO] test_login_page: Test passed: TestLoginPage.test_auth_login_page
