@@ -3,7 +3,9 @@ import logging
 import pytest
 from playwright.sync_api._generated import Page
 
+from data import assertions
 import pages
+
 
 logger = logging.getLogger(__name__)
 
@@ -18,7 +20,9 @@ class TestProductPage:
 
         try:
             logger.info(f"Start test: {test_name}")
+
             pages.product_page.open_product_page(page)
+
             logger.info(f"End test: {test_name}")
         except Exception as e:
             logger.error(f"Error test: {test_name}", exc_info=True)

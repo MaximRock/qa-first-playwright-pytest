@@ -35,6 +35,7 @@ class TestLoginPage:
             logger.error(f"Error details: {str(e)}")
             pytest.fail(f"Test failed: {test_name} - {str(e)}")
 
+    @pytest.mark.TC_008
     @pytest.mark.negative
     @pytest.mark.smoke
     def test_empty_fields_login_page(self, page):
@@ -54,6 +55,7 @@ class TestLoginPage:
             logger.error(f"Error details: {str(e)}")
             pytest.fail(f"Test failed: {test_name} - {str(e)}")
 
+    @pytest.mark.TC_009
     @pytest.mark.negative
     @pytest.mark.parametrize(
         "username, password",

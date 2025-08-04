@@ -24,6 +24,7 @@ class ProductPage:
         self.assertion.have_url(
             page, url=self.uri_product, msg="the url does not match"
         )
+        self.assertion.have_url(page, self.uri_product, msg="the url does not match")
 
     def _click_btn_back_to_products(self, page: Page) -> None:
         pages.base_page.click(page, selector=locators.product.BACK_TO_PRODUCTS_BTN)

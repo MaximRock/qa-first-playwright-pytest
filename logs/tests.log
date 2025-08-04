@@ -13,3 +13,55 @@
 2025-07-31 14:42:33,678 | [DEBUG] test_login_page: Get username: standard_user and password: secret_sauce
 2025-07-31 14:42:33,678 | [INFO] test_login_page: Attempting user authentication
 2025-07-31 14:42:36,897 | [INFO] test_login_page: Test passed: TestLoginPage.test_auth_login_page
+2025-08-04 11:27:53,368 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-04 11:27:55,686 | [INFO] test_login_page: Test empty fields login page: TestLoginPage.test_empty_fields_login_page
+2025-08-04 11:27:58,118 | [INFO] test_login_page: Test passed: TestLoginPage.test_empty_fields_login_page
+2025-08-04 11:27:58,120 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:00,366 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:00,367 | [DEBUG] test_login_page: Test:  | 
+2025-08-04 11:28:00,371 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:02,659 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:02,660 | [DEBUG] test_login_page: Test:   | 
+2025-08-04 11:28:02,663 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:04,964 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:04,964 | [DEBUG] test_login_page: Test: standard_user | 
+2025-08-04 11:28:04,968 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:07,241 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:07,241 | [DEBUG] test_login_page: Test: #lns5c6z~pBur6SWx|nMHF/fyGM8{$0606I?*8djdp;Ix<p+}b49!pGN0vSESh4Hy8rx!?|7>nBJN7:=^]Q1krN`{_xXK3[$W3u9 | 
+2025-08-04 11:28:07,243 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:09,554 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:09,555 | [DEBUG] test_login_page: Test: #lns5c6z~pBur6SWx|nMHF/fyGM8{$0606I?*8djdp;Ix<p+}b49!pGN0vSESh4Hy8rx!?|7>nBJN7:=^]Q1krN`{_xXK3[$W3u9 |  
+2025-08-04 11:28:09,558 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:11,846 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:11,846 | [DEBUG] test_login_page: Test: standard_user |  
+2025-08-04 11:28:11,851 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:14,109 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:14,109 | [DEBUG] test_login_page: Test:   |  
+2025-08-04 11:28:14,113 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:16,361 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:16,361 | [DEBUG] test_login_page: Test:  |  
+2025-08-04 11:28:16,365 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:18,637 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:18,638 | [DEBUG] test_login_page: Test:  | secret_sauce
+2025-08-04 11:28:18,641 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:20,928 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:20,928 | [DEBUG] test_login_page: Test:   | secret_sauce
+2025-08-04 11:28:20,932 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:23,220 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:23,220 | [DEBUG] test_login_page: Test: standard_user | ml2:#`X+S6B`,3q,D<%WL-3OvLjSS028NS7p>MX'G~AP6j8cI08O9qFqTit*-se6Qw<U4d$|M8e7fy&F6@5tE`_@,4;VCj/XPn>n
+2025-08-04 11:28:23,223 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:25,501 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:25,502 | [DEBUG] test_login_page: Test: #lns5c6z~pBur6SWx|nMHF/fyGM8{$0606I?*8djdp;Ix<p+}b49!pGN0vSESh4Hy8rx!?|7>nBJN7:=^]Q1krN`{_xXK3[$W3u9 | secret_sauce
+2025-08-04 11:28:25,506 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-04 11:28:27,783 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-04 11:28:27,784 | [DEBUG] test_login_page: Test: #lns5c6z~pBur6SWx|nMHF/fyGM8{$0606I?*8djdp;Ix<p+}b49!pGN0vSESh4Hy8rx!?|7>nBJN7:=^]Q1krN`{_xXK3[$W3u9 | ml2:#`X+S6B`,3q,D<%WL-3OvLjSS028NS7p>MX'G~AP6j8cI08O9qFqTit*-se6Qw<U4d$|M8e7fy&F6@5tE`_@,4;VCj/XPn>n
+2025-08-04 21:07:40,947 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-04 21:07:46,721 | [INFO] test_product_page: Start test: TestProductPage.test_open_product_page
+2025-08-04 21:07:46,756 | [INFO] test_product_page: End test: TestProductPage.test_open_product_page
+2025-08-04 21:07:46,759 | [INFO] test_product_page: Strart test: TestProductPage.test_click_all_elements_products
+2025-08-04 21:07:53,950 | [INFO] test_product_page: End test: TestProductPage.test_click_all_elements_products
+2025-08-04 21:09:54,011 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-04 21:09:58,307 | [INFO] test_product_page: Start test: TestProductPage.test_open_product_page
+2025-08-04 21:09:58,333 | [INFO] test_product_page: End test: TestProductPage.test_open_product_page
+2025-08-04 21:09:58,337 | [INFO] test_product_page: Strart test: TestProductPage.test_click_all_elements_products
+2025-08-04 21:10:05,629 | [INFO] test_product_page: End test: TestProductPage.test_click_all_elements_products

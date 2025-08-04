@@ -21,6 +21,12 @@ markers = [
     "TC_001: Link test to test case ID",
     "TC_002: Link test to test case ID",
     "TC_003: Link test to test case ID",
+    "TC_004: Link test to test case ID",
+    "TC_005: Link test to test case ID",
+    "TC_006: Link test to test case ID",
+    "TC_007: Link test to test case ID",
+    "TC_008: Link test to test case ID",
+    "TC_009: Link test to test case ID",
     "serial",
 ]
 env = [
