@@ -65,3 +65,8 @@
 2025-08-04 21:09:58,333 | [INFO] test_product_page: End test: TestProductPage.test_open_product_page
 2025-08-04 21:09:58,337 | [INFO] test_product_page: Strart test: TestProductPage.test_click_all_elements_products
 2025-08-04 21:10:05,629 | [INFO] test_product_page: End test: TestProductPage.test_click_all_elements_products
+2025-08-05 21:43:44,756 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-05 21:43:50,505 | [INFO] test_product_page: Start test: TestProductPage.test_open_product_page
+2025-08-05 21:43:50,541 | [INFO] test_product_page: End test: TestProductPage.test_open_product_page
+2025-08-05 21:43:50,544 | [INFO] test_product_page: Strart test: TestProductPage.test_click_all_elements_products
+2025-08-05 21:43:57,781 | [INFO] test_product_page: End test: TestProductPage.test_click_all_elements_products
