@@ -1,8 +1,7 @@
-from config.url import Url
-from config.playwright import Playwright
 from config.expectations import Expectations
+from config.playwright import Playwright
 from config.project_path import PathManager
-
+from config.url import Url
 
 url = Url()
 playwright = Playwright()

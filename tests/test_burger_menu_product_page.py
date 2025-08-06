@@ -1,5 +1,6 @@
-import pytest
 import logging
+
+import pytest
 from playwright.async_api import Page
 
 import data
@@ -11,28 +12,22 @@ logger = logging.getLogger(__name__)
 @pytest.mark.positive
 @pytest.mark.usefixtures("user_login")
 class TestBurgerMenuProductPage:
-
     @pytest.mark.TC_002
     @pytest.mark.smoke
     def test_open_and_close_burger_menu(self, page: Page):
+        test_name = "test_open_and_close_burger_menu"
         try:
-            logger.info(
-                f"Starting test: {self.__class__.__name__}.test_open_and_close_burger_menu"
-            )
+            logger.info(f"Starting test: {test_name}")
 
             pages.burger_menu_products_page.open_and_close_burger_menu(page)
 
-            logger.info(
-                f"Finished test: {self.__class__.__name__}.test_open_and_close_burger_menu"
-            )
+            logger.info(f"Finished test: {self.__class__.__name__}.{test_name}")
         except Exception as e:
             logger.error(
-                f"Failed test: {self.__class__.__name__}.test_open_and_close_burger_menu",
+                f"Failed test: {self.__class__.__name__}.{test_name}",
                 exc_info=True,
             )
-            pytest.fail(
-                f"Failed test: {self.__class__.__name__}.test_open_and_close_burger_menu, {e}"
-            )
+            pytest.fail(f"Failed test: {self.__class__.__name__}.{test_name}, {e}")
 
     @pytest.mark.TC_003
     @pytest.mark.parametrize("menu_buttons", data.data_for_tests.text_pruduct_menu)
@@ -52,4 +47,4 @@ class TestBurgerMenuProductPage:
         except Exception as e:
             logger.error(f"Test failed for button: {menu_buttons}", exc_info=True)
             logger.error(f"Expected: {menu_buttons} | Actual: {elements}")
-            pytest.fail(f"Test failed for button: {menu_buttons}, {str(e)}")
+            pytest.fail(f"Test failed for button: {menu_buttons}, {e}")

@@ -1,10 +1,9 @@
-from pages import market_product_page
 from pages.base_page import BasePage
 from pages.burger_menu_products_page import BurgerMenuProductsPage
 from pages.login_page import LoginPage
-from pages.product_page import ProductPage
 from pages.market_product_page import MarketProductPage
 from pages.market_sorting import MarketSorting
+from pages.product_page import ProductPage
 
 base_page = BasePage()
 login_page = LoginPage()

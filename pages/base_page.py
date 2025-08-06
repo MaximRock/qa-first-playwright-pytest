@@ -1,5 +1,4 @@
-from playwright.sync_api import (ElementHandle, Locator, Page, Response,
-                                 TimeoutError)
+from playwright.sync_api import ElementHandle, Locator, Page
 
 import data
 
@@ -32,4 +31,3 @@ class BasePage:
 
     def dropdown_select(self, page: Page, selector: str, value: str) -> None:
         page.locator(selector).select_option(value)
-

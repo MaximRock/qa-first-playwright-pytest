@@ -70,3 +70,265 @@
 2025-08-05 21:43:50,541 | [INFO] test_product_page: End test: TestProductPage.test_open_product_page
 2025-08-05 21:43:50,544 | [INFO] test_product_page: Strart test: TestProductPage.test_click_all_elements_products
 2025-08-05 21:43:57,781 | [INFO] test_product_page: End test: TestProductPage.test_click_all_elements_products
+2025-08-05 22:04:46,917 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-05 22:04:51,363 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-05 22:04:51,364 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-05 22:04:52,026 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-05 22:04:52,029 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-05 22:04:52,030 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-05 22:04:52,659 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-05 22:04:52,663 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-05 22:04:52,664 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-05 22:04:53,264 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-05 22:04:53,266 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-05 22:04:53,267 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-05 22:04:53,895 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-05 22:18:37,682 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-05 22:18:42,509 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-05 22:18:42,510 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-05 22:18:43,153 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-05 22:18:43,155 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-05 22:18:43,156 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-05 22:18:43,790 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-05 22:18:43,794 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-05 22:18:43,794 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-05 22:18:44,411 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-05 22:18:44,414 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-05 22:18:44,414 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-05 22:18:45,053 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-05 22:20:41,088 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-05 22:20:45,403 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-05 22:20:45,404 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-05 22:20:46,031 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-05 22:20:46,035 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-05 22:20:46,035 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-05 22:20:46,685 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-05 22:20:46,688 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-05 22:20:46,689 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-05 22:20:47,289 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-05 22:20:47,292 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-05 22:20:47,292 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-05 22:20:47,877 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-06 11:43:14,201 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 11:43:16,524 | [INFO] test_login_page: Test auth login page: TestLoginPage.test_auth_login_page
+2025-08-06 11:43:16,524 | [DEBUG] test_login_page: Get username: standard_user and password: secret_sauce
+2025-08-06 11:43:16,524 | [INFO] test_login_page: Attempting user authentication
+2025-08-06 11:43:20,134 | [INFO] test_login_page: Test passed: TestLoginPage.test_auth_login_page
+2025-08-06 11:43:20,137 | [INFO] test_login_page: Test empty fields login page: TestLoginPage.test_empty_fields_login_page
+2025-08-06 11:43:21,346 | [INFO] test_login_page: Test passed: TestLoginPage.test_empty_fields_login_page
+2025-08-06 11:43:21,350 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:23,646 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:23,647 | [DEBUG] test_login_page: Test:  | 
+2025-08-06 11:43:23,650 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:25,910 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:25,910 | [DEBUG] test_login_page: Test:   | 
+2025-08-06 11:43:25,912 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:28,189 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:28,189 | [DEBUG] test_login_page: Test: standard_user | 
+2025-08-06 11:43:28,192 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:30,462 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:30,463 | [DEBUG] test_login_page: Test: 8X[Gi1F~3IQR5N|'1V)>802n9dRrLxN,Sc#v0d}+G6E0V9gN{>Ev![/${jP!0Yy<l-3PT.D~G;Q[m80h_T1-M3j;1E^iE+K_7ba< | 
+2025-08-06 11:43:30,466 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:32,749 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:32,749 | [DEBUG] test_login_page: Test: 8X[Gi1F~3IQR5N|'1V)>802n9dRrLxN,Sc#v0d}+G6E0V9gN{>Ev![/${jP!0Yy<l-3PT.D~G;Q[m80h_T1-M3j;1E^iE+K_7ba< |  
+2025-08-06 11:43:32,751 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:35,028 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:35,028 | [DEBUG] test_login_page: Test: standard_user |  
+2025-08-06 11:43:35,031 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:37,321 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:37,321 | [DEBUG] test_login_page: Test:   |  
+2025-08-06 11:43:37,326 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:39,616 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:39,617 | [DEBUG] test_login_page: Test:  |  
+2025-08-06 11:43:39,621 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:41,897 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:41,897 | [DEBUG] test_login_page: Test:  | secret_sauce
+2025-08-06 11:43:41,900 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:44,146 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:44,147 | [DEBUG] test_login_page: Test:   | secret_sauce
+2025-08-06 11:43:44,150 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:46,427 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:46,428 | [DEBUG] test_login_page: Test: standard_user | QmX#kKa%dEt!O3Cv3vk)NlK`3mJ%'&94jh0]5m-a"[rlZN8g2g1XqKv1qy^qFr1>ZJZbSPx~&28.M!G]a6\p6798#V{=cGfS8^2)
+2025-08-06 11:43:46,432 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:48,698 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:48,698 | [DEBUG] test_login_page: Test: 8X[Gi1F~3IQR5N|'1V)>802n9dRrLxN,Sc#v0d}+G6E0V9gN{>Ev![/${jP!0Yy<l-3PT.D~G;Q[m80h_T1-M3j;1E^iE+K_7ba< | secret_sauce
+2025-08-06 11:43:48,701 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 11:43:50,963 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 11:43:50,964 | [DEBUG] test_login_page: Test: 8X[Gi1F~3IQR5N|'1V)>802n9dRrLxN,Sc#v0d}+G6E0V9gN{>Ev![/${jP!0Yy<l-3PT.D~G;Q[m80h_T1-M3j;1E^iE+K_7ba< | QmX#kKa%dEt!O3Cv3vk)NlK`3mJ%'&94jh0]5m-a"[rlZN8g2g1XqKv1qy^qFr1>ZJZbSPx~&28.M!G]a6\p6798#V{=cGfS8^2)
+2025-08-06 12:04:42,957 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 12:04:47,754 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: All Items
+2025-08-06 12:04:47,755 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:04:47,781 | [INFO] test_burger_menu_product_page: Text comparison successful for: All Items | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:04:47,786 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: About
+2025-08-06 12:04:47,787 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:04:47,849 | [INFO] test_burger_menu_product_page: Text comparison successful for: About | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:04:47,853 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Logout
+2025-08-06 12:04:47,854 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:04:47,921 | [INFO] test_burger_menu_product_page: Text comparison successful for: Logout | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:04:47,925 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Reset App State
+2025-08-06 12:04:47,925 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:04:47,986 | [INFO] test_burger_menu_product_page: Text comparison successful for: Reset App State | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:07:08,368 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 12:07:12,873 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: All Items
+2025-08-06 12:07:12,873 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:07:12,893 | [INFO] test_burger_menu_product_page: Text comparison successful for: All Items | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:07:12,894 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: About
+2025-08-06 12:07:12,894 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:07:12,912 | [INFO] test_burger_menu_product_page: Text comparison successful for: About | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:07:12,913 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Logout
+2025-08-06 12:07:12,913 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:07:12,925 | [INFO] test_burger_menu_product_page: Text comparison successful for: Logout | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:07:12,926 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Reset App State
+2025-08-06 12:07:12,926 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:07:12,936 | [INFO] test_burger_menu_product_page: Text comparison successful for: Reset App State | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:08:01,330 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 12:08:05,484 | [INFO] test_burger_menu_product_page: Starting test: test_open_and_close_burger_menu
+2025-08-06 12:08:06,642 | [INFO] test_burger_menu_product_page: Finished test: TestBurgerMenuProductPage.test_open_and_close_burger_menu
+2025-08-06 12:08:06,646 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: All Items
+2025-08-06 12:08:06,646 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:08:06,717 | [INFO] test_burger_menu_product_page: Text comparison successful for: All Items | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:08:06,720 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: About
+2025-08-06 12:08:06,720 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:08:06,790 | [INFO] test_burger_menu_product_page: Text comparison successful for: About | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:08:06,793 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Logout
+2025-08-06 12:08:06,793 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:08:06,862 | [INFO] test_burger_menu_product_page: Text comparison successful for: Logout | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 12:08:06,865 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Reset App State
+2025-08-06 12:08:06,866 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 12:08:06,934 | [INFO] test_burger_menu_product_page: Text comparison successful for: Reset App State | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 20:44:25,956 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 20:44:40,956 | [INFO] test_burger_menu_product_page: Starting test: test_open_and_close_burger_menu
+2025-08-06 20:44:42,139 | [INFO] test_burger_menu_product_page: Finished test: TestBurgerMenuProductPage.test_open_and_close_burger_menu
+2025-08-06 20:44:42,142 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: All Items
+2025-08-06 20:44:42,142 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 20:44:42,185 | [INFO] test_burger_menu_product_page: Text comparison successful for: All Items | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 20:44:42,186 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: About
+2025-08-06 20:44:42,187 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 20:44:42,202 | [INFO] test_burger_menu_product_page: Text comparison successful for: About | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 20:44:42,203 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Logout
+2025-08-06 20:44:42,203 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 20:44:42,226 | [INFO] test_burger_menu_product_page: Text comparison successful for: Logout | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 20:44:42,227 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Reset App State
+2025-08-06 20:44:42,228 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 20:44:42,265 | [INFO] test_burger_menu_product_page: Text comparison successful for: Reset App State | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 20:46:44,160 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 20:46:53,255 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-06 20:46:53,255 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-06 20:46:53,909 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-06 20:46:53,912 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-06 20:46:53,912 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-06 20:46:54,519 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-06 20:46:54,522 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-06 20:46:54,523 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-06 20:46:55,106 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-06 20:46:55,107 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-06 20:46:55,107 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-06 20:46:55,712 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-06 21:08:37,929 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:08:48,205 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-06 21:08:48,206 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-06 21:08:48,840 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-06 21:08:48,846 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-06 21:08:48,847 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-06 21:08:49,477 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-06 21:08:49,481 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-06 21:08:49,482 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-06 21:08:50,094 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-06 21:08:50,097 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-06 21:08:50,098 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-06 21:08:50,726 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-06 21:12:10,742 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:12:21,549 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-06 21:12:21,549 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-06 21:12:22,165 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-06 21:12:22,168 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-06 21:12:22,169 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-06 21:12:22,791 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-06 21:12:22,796 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-06 21:12:22,797 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-06 21:12:23,405 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-06 21:12:23,408 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-06 21:12:23,408 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-06 21:12:23,999 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-06 21:13:25,855 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:13:33,160 | [INFO] test_burger_menu_product_page: Starting test: test_open_and_close_burger_menu
+2025-08-06 21:13:34,325 | [INFO] test_burger_menu_product_page: Finished test: TestBurgerMenuProductPage.test_open_and_close_burger_menu
+2025-08-06 21:13:34,330 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: All Items
+2025-08-06 21:13:34,331 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 21:13:34,400 | [INFO] test_burger_menu_product_page: Text comparison successful for: All Items | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 21:13:34,405 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: About
+2025-08-06 21:13:34,406 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 21:13:34,455 | [INFO] test_burger_menu_product_page: Text comparison successful for: About | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 21:13:34,457 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Logout
+2025-08-06 21:13:34,457 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 21:13:34,526 | [INFO] test_burger_menu_product_page: Text comparison successful for: Logout | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 21:13:34,531 | [INFO] test_burger_menu_product_page: Starting text comparison test for button: Reset App State
+2025-08-06 21:13:34,532 | [DEBUG] test_burger_menu_product_page: Getting elements from page: <Page url='https://www.saucedemo.com/inventory.html'>
+2025-08-06 21:13:34,576 | [INFO] test_burger_menu_product_page: Text comparison successful for: Reset App State | Elements: ['All Items', 'About', 'Logout', 'Reset App State']
+2025-08-06 21:13:34,932 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:13:41,542 | [INFO] test_check_badge_add_to_cart: Start test: TestCheckBadgeAddToCart.test_check_badge_add_to_cart
+2025-08-06 21:13:42,724 | [INFO] test_check_badge_add_to_cart: End test: TestCheckBadgeAddToCart.test_check_badge_add_to_cart
+2025-08-06 21:13:43,082 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:13:44,194 | [INFO] test_login_page: Test auth login page: TestLoginPage.test_auth_login_page
+2025-08-06 21:13:44,194 | [DEBUG] test_login_page: Get username: standard_user and password: secret_sauce
+2025-08-06 21:13:44,194 | [INFO] test_login_page: Attempting user authentication
+2025-08-06 21:13:49,299 | [INFO] test_login_page: Test passed: TestLoginPage.test_auth_login_page
+2025-08-06 21:13:49,301 | [INFO] test_login_page: Test empty fields login page: TestLoginPage.test_empty_fields_login_page
+2025-08-06 21:13:50,505 | [INFO] test_login_page: Test passed: TestLoginPage.test_empty_fields_login_page
+2025-08-06 21:13:50,507 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:13:52,789 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:13:52,789 | [DEBUG] test_login_page: Test:  | 
+2025-08-06 21:13:52,792 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:13:55,071 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:13:55,071 | [DEBUG] test_login_page: Test:   | 
+2025-08-06 21:13:55,074 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:13:57,347 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:13:57,347 | [DEBUG] test_login_page: Test: standard_user | 
+2025-08-06 21:13:57,351 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:13:59,620 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:13:59,620 | [DEBUG] test_login_page: Test: ;d&7(Es:F{"$XLEHP;TwqcE#gDrQ1)p9ez!v3r}_-9508)`dU,Ug"QEb$|lZl{?Q5s|05z)(}Bp8a2(eusNKadPj`AMdj!4F+\:N | 
+2025-08-06 21:13:59,623 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:01,887 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:01,888 | [DEBUG] test_login_page: Test: ;d&7(Es:F{"$XLEHP;TwqcE#gDrQ1)p9ez!v3r}_-9508)`dU,Ug"QEb$|lZl{?Q5s|05z)(}Bp8a2(eusNKadPj`AMdj!4F+\:N |  
+2025-08-06 21:14:01,891 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:04,184 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:04,185 | [DEBUG] test_login_page: Test: standard_user |  
+2025-08-06 21:14:04,188 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:06,476 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:06,477 | [DEBUG] test_login_page: Test:   |  
+2025-08-06 21:14:06,480 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:08,758 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:08,759 | [DEBUG] test_login_page: Test:  |  
+2025-08-06 21:14:08,762 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:11,035 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:11,036 | [DEBUG] test_login_page: Test:  | secret_sauce
+2025-08-06 21:14:11,040 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:13,325 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:13,326 | [DEBUG] test_login_page: Test:   | secret_sauce
+2025-08-06 21:14:13,330 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:15,612 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:15,613 | [DEBUG] test_login_page: Test: standard_user | F6<i6+8B0`x%h@1)S9ME4O5*?`"6_5qX,hV$U;":'6ibq7}U[.pi<[iZ[*B@fo.y+.dEdp!/F,20M2~tpK^WF~'06LJZQ{\e14p.
+2025-08-06 21:14:15,616 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:17,902 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:17,903 | [DEBUG] test_login_page: Test: ;d&7(Es:F{"$XLEHP;TwqcE#gDrQ1)p9ez!v3r}_-9508)`dU,Ug"QEb$|lZl{?Q5s|05z)(}Bp8a2(eusNKadPj`AMdj!4F+\:N | secret_sauce
+2025-08-06 21:14:17,906 | [INFO] test_login_page: Test error pairs: TestLoginPage.test_error_pairs
+2025-08-06 21:14:20,194 | [INFO] test_login_page: Test passed: TestLoginPage.test_error_pairs
+2025-08-06 21:14:20,194 | [DEBUG] test_login_page: Test: ;d&7(Es:F{"$XLEHP;TwqcE#gDrQ1)p9ez!v3r}_-9508)`dU,Ug"QEb$|lZl{?Q5s|05z)(}Bp8a2(eusNKadPj`AMdj!4F+\:N | F6<i6+8B0`x%h@1)S9ME4O5*?`"6_5qX,hV$U;":'6ibq7}U[.pi<[iZ[*B@fo.y+.dEdp!/F,20M2~tpK^WF~'06LJZQ{\e14p.
+2025-08-06 21:14:20,573 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:14:25,260 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: az
+2025-08-06 21:14:25,260 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Backpack', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Fleece Jacket', 'Sauce Labs Onesie', 'Test.allTheThings() T-Shirt (Red)']
+2025-08-06 21:14:25,885 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: az
+2025-08-06 21:14:25,887 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: za
+2025-08-06 21:14:25,887 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Onesie', 'Sauce Labs Fleece Jacket', 'Sauce Labs Bolt T-Shirt', 'Sauce Labs Bike Light', 'Sauce Labs Backpack']
+2025-08-06 21:14:26,473 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: za
+2025-08-06 21:14:26,474 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: hilo
+2025-08-06 21:14:26,474 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Fleece Jacket', 'Sauce Labs Backpack', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Bike Light', 'Sauce Labs Onesie']
+2025-08-06 21:14:27,071 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: hilo
+2025-08-06 21:14:27,074 | [INFO] test_market_sorting_name_a_to_z: Starting sorting test: lohi
+2025-08-06 21:14:27,075 | [DEBUG] test_market_sorting_name_a_to_z: Expected order: ['Sauce Labs Onesie', 'Sauce Labs Bike Light', 'Sauce Labs Bolt T-Shirt', 'Test.allTheThings() T-Shirt (Red)', 'Sauce Labs Backpack', 'Sauce Labs Fleece Jacket']
+2025-08-06 21:14:27,692 | [INFO] test_market_sorting_name_a_to_z: Sorting test passed: lohi
+2025-08-06 21:14:28,062 | [DEBUG] asyncio: Using selector: EpollSelector
+2025-08-06 21:14:38,316 | [INFO] test_product_page: Start test: TestProductPage.test_open_product_page
+2025-08-06 21:14:38,342 | [INFO] test_product_page: End test: TestProductPage.test_open_product_page
+2025-08-06 21:14:38,346 | [INFO] test_product_page: Strart test: TestProductPage.test_click_all_elements_products
+2025-08-06 21:14:45,497 | [INFO] test_product_page: End test: TestProductPage.test_click_all_elements_products

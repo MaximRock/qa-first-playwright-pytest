@@ -10,7 +10,6 @@ from config.project_path import PathManager
 from data.assertions import Assertions
 
 
-
 class ProductPage:
     def __init__(self):
         self.assertion = Assertions()
@@ -48,7 +47,7 @@ class ProductPage:
         screenshot_dir = self._extract_path_screenshot()
         elements = self._get_elements_all_products(page)
 
-        for _, element in enumerate(elements):
+        for _, element in enumerate(elements):  # noqa
             element_text = element.text_content().strip()
             safe_name = self._get_sanitized_filename(element_text)
             element.click()
@@ -61,60 +60,3 @@ class ProductPage:
         self.assertion.is_visible(
             page, selector=locators.product.PRODUCTS_TITLE, msg="element is not visible"
         )
-
-        # for index, element in enumerate(elements):
-        #     try:
-        #         # Кликаем на элемент
-        #         element.click()
-        #         page.wait_for_timeout(300)
-
-        #         # Формируем корректное имя файла
-        #         screenshot_path = screenshot_dir / f"product_{index}.png"
-
-        #         # Делаем скриншот
-        #         page.screenshot(
-        #             path=str(screenshot_path),  # Явное преобразование Path в строку
-        #             full_page=True,
-        #         )
-
-        #         # Возвращаемся назад
-        #         self._click_btn_back_to_products(page)
-
-        #     except Exception as e:
-        #         print(f"Ошибка при сохранении скриншота для элемента {index}: {e}")
-
-        # for element in self.get_text_from_all_elements(page):
-        # assert (element in lst), ()
-
-        # def _screen_product_list(self, page: Page) -> None:
-
-    #     path_screen = self._create_dir_screenshot() / f'{}.png'
-    #     pages.base_page.page_screenshot(page, path='')
-
-    # def click_burger_btn(self, page: Page) -> None:
-    #     pages.base_page.click(page, selector=locators.product.PRODUCTS_BURGER_MENU_BTN)
-
-    # def visible_close_burger_menu(self, page: Page) -> None:
-    #     self.assertion.is_visible(
-    #         page,
-    #         selector=locators.product.PRODUCTS_CLOSE_BURGER_MENU_BTN,
-    #         msg="the element is not visible",
-    #     )
-
-    # def click_close_burger_menu(self, page: Page) -> None:
-    #     pages.base_page.click(
-    #         page, selector=locators.product.PRODUCTS_CLOSE_BURGER_MENU_BTN
-    #     )
-
-    # def visible_burger_menu_btn(self, page: Page) -> None:
-    #     self.assertion.is_visible(
-    #         page,
-    #         selector=locators.product.PRODUCTS_BURGER_MENU_BTN,
-    #         msg="the element is not visible",
-    #     )
-
-    # def get_text_from_all_elements(self, page: Page) -> list:
-    #     return pages.base_page.get_element_text(page, locators.product.PRODUCTS_MENU)
-
-    # def assert_text_from_all_elements(self, lst: list, text: list) -> None:
-    #     self.assertion.check_text_in_list(self, lst, text)

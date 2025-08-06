@@ -1,16 +1,15 @@
-import pytest
-import os
 import logging
+import os
 
-import pages
+import pytest
+
 import data
-
+import pages
 
 logger = logging.getLogger(__name__)
 
 
 class TestLoginPage:
-
     @pytest.mark.TC_001
     @pytest.mark.positive
     @pytest.mark.smoke
@@ -19,7 +18,8 @@ class TestLoginPage:
         try:
             logger.info(f"Test auth login page: {test_name}")
             logger.debug(
-                f'Get username: {os.getenv("AUTH_LOGIN")} and password: {os.getenv("AUTH_PASSWORD")}'
+                f"Get username: {os.getenv('AUTH_LOGIN')} "
+                f"and password: {os.getenv('AUTH_PASSWORD')}"
             )
             logger.info("Attempting user authentication")
             pages.login_page.auth_login_page(
@@ -30,10 +30,10 @@ class TestLoginPage:
         except Exception as e:
             logger.error(f"Test failed: {test_name}", exc_info=True)
             logger.error(
-                f"Authentication details - username: {os.getenv("AUTH_LOGIN")}"
+                f"Authentication details - username: {os.getenv('AUTH_LOGIN')}"
             )
-            logger.error(f"Error details: {str(e)}")
-            pytest.fail(f"Test failed: {test_name} - {str(e)}")
+            logger.error(f"Error details: {e}")
+            pytest.fail(f"Test failed: {test_name} - {e}")
 
     @pytest.mark.TC_008
     @pytest.mark.negative
@@ -52,15 +52,15 @@ class TestLoginPage:
             logger.info(f"Test passed: {test_name}")
         except Exception as e:
             logger.error(f"Test failed: {test_name}", exc_info=True)
-            logger.error(f"Error details: {str(e)}")
-            pytest.fail(f"Test failed: {test_name} - {str(e)}")
+            logger.error(f"Error details: {e}")
+            pytest.fail(f"Test failed: {test_name} - {e}")
 
     @pytest.mark.TC_009
     @pytest.mark.negative
     @pytest.mark.parametrize(
-        "username, password",
+        ("username", "password"),
         data.testdata,
-        ids=[f"{i+1}" for i in range(len(data.testdata))],
+        ids=[f"{i + 1}" for i in range(len(data.testdata))],
     )
     def test_error_pairs(self, page, username, password):
         test_name = f"{self.__class__.__name__}.test_error_pairs"
@@ -72,5 +72,5 @@ class TestLoginPage:
             logger.debug(f"Test: {username} | {password}")
         except Exception as e:
             logger.error(f"Test failed: {test_name}", exc_info=True)
-            logger.error(f"Error details: {str(e)}")
-            pytest.fail(f"Test failed: {test_name} - {str(e)}")
+            logger.error(f"Error details: {e}")
+            pytest.fail(f"Test failed: {test_name} - {e}")

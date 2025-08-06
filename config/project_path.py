@@ -1,9 +1,7 @@
 from pathlib import Path
 
 
-
 class PathManager:
-
     def __init__(self):
         self.base_dir = Path(__file__).resolve().parent.parent
 
@@ -12,7 +10,6 @@ class PathManager:
         if not new_dir.exists():
             new_dir.mkdir(parents=True)
             return new_dir
-        # raise FileExistsError(f"Path exists: {new_dir}")
         return new_dir
 
     def extract_path(self, full_path: Path) -> Path:
@@ -40,14 +37,3 @@ class PathManager:
         if not ext:
             return "."
         return ext if ext[0] == "." else f".{ext}"
-
-
-# ter = PathManager()
-# # print(ter.extract_path(ter.create_dir("logs")))
-# print(ter.create_file(ter.extract_path(ter.create_dir("logs")), "test.log"))
-#print(ter.extract_path(ter.create_dir("screenshots", "products_page")))
-# print(ter.base_dir)
-
-# print(ter.create_dir('screenshots', 'product_page'))
-
-# print(ter.create_file('screenshots/product_page/screen.png'))

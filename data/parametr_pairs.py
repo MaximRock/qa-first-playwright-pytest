@@ -1,9 +1,10 @@
 import os
-
 from typing import Any
+
 from allpairspy import AllPairs
 
 from data.generator import gen
+
 
 class ParametrPairs:
     def __init__(self):
@@ -12,8 +13,8 @@ class ParametrPairs:
 
     def parametr(self) -> list[list[str]]:
         parametr = [
-            ["", " ", f'{self.username}', gen.string_random(100)],
-            ["", " ", f'{self.password}', gen.string_random(100)],
+            ["", " ", f"{self.username}", gen.string_random(100)],
+            ["", " ", f"{self.password}", gen.string_random(100)],
         ]
         return parametr
 
@@ -23,10 +24,7 @@ class ParametrPairs:
             for combination in AllPairs(
                 self.parametr(),
                 filter_func=(
-                    lambda row: not (
-                        self.username in row and self.password in row
-                    )
+                    lambda row: not (self.username in row and self.password in row)
                 ),
             )
         ]
-
